@@ -1,0 +1,350 @@
+Artful
+The bearer is proficient in one tool or set of tools, of the GM’s choice, while the item is on the bearer’s person.
+
+Ancient
+This worn object is inscribed with ancient runes and can be used as a Spellcasting Focus
+
+Arcane
+When activated, this object can project a spectral tome suspended in mid-air that the bearer can interact with like a physical book. This tome can be used as a spellbook and may contain some spells from its previous bearer.
+
+Arctic
+The bearer can walk on the surface of the lightest snow, leaving no footprints.
+
+Artistic
+The bearer may use this weapon to make colored marks on any surface. The marks will fade away in 24 hours.
+
+Binding
+Once per day, the bearer may specify a target within 10 feet. The ground beneath binds to its feet, slowing its speed by 5 feet until the end of its next turn. This has no effect on creatures that are flying or swimming.
+
+Sight Giving
+An eye is etched or painted on this object. The bearer can use an action to see/unsee through the eyes, even if their own senses are compromised.
+
+Mirthful
+The bearer is filled with inexplicable joy. All charisma skill and saving throw rolls gain a +1 bonus, but all wisdom skill and saving throw rolls gain a -1 penalty.
+
+Bonded
+This item is part of a pair of identical items. The bearer of either knows the location of the other at all times.
+
+Braided
+The bearer may use their action to cause the object to become a 50 ft length of hemp rope at will
+
+Breath
+The bearer can hold their breath for an additional 5 minutes before the onset of asphyxiation.
+
+Detonating
+The bearer may use a bonus action to activate destructive magic within this object. It begins to glow with white-hot intensely, and at the beginning of the bearer's next turn, the weapon casts a level 1 Shatter spell (DC 12) centered on the object, which is destroyed.
+
+Elemental
+On creation, choose elemental earth, water, air or fire to set the object's properties. This object has 4 charges. The bearer may spend one charge to use the Mold Earth, Shape Water, Gust, or Control Fire cantrip respectively. Alternatively, the bearer may use 4 charges to cast Chromatic Orb as a 1st level spell, using thunder, acid, cold, or fire damage respectively. The object regains 1d2+1 charges each dawn.
+
+Chill
+The bearer suffers no ill effect from being in extremely cold environments.
+
+Courser's
+The bearer can placate and calm any mount not under the influence of a spell or possession.
+
+Defensive
+Whenever the bearer takes a dodge or disengage action, they may move an additional 5 feet that round.
+
+Dreamscribe
+The bearer can read books they are touching while sleeping.
+
+Enervating
+Once per long rest, the bearer may spend one minute contemplating the patterns etched on this weapon's surface and regain 1 expended ki point, sorcery point, or a single use of a class feature which only resets on a long rest.
+
+Epistemological
+The bearer has advantage on investigation checks to see through illusions. In addition the bearer can gains advantage on an Insight check to check if someone is lying and disadvantage on all Deception checks.
+
+Reactive
+The bearer gains a +1 bonus to Initiative
+
+Harkening
+As long as it is on the same plane of existence, the bearer can hear through this weapon as if they were present.
+
+Indifferent
+The bearer no longer feels emotions. They have immunity to fear effects but disadvantage on Insight and Performance checks, cannot Rage, nor use any other emotion-based class feature.
+
+Masked
+The bearer and all of their possessions are completely odorless.
+
+Mindscour
+This item disrupts all telepathic communication within 20 feet.
+
+Mortuary
+The bearer's vital signs, such as a pulse and breathing, are masked by this object and are undetectable by non-magical inspection.
+
+Shading
+The bearer suffers no harm or discomfort in temperatures as high as 120 degrees Fahrenheit.
+
+Shaman's
+Whenever the bearer is casting a spell as a ritual, they have advantage to maintain concentration during the ritual.
+
+Smuggler's
+This object contains a small, secret compartment. A character must succeed on a DC 20 Wisdom (Perception) check to reveal the compartment when searching the bearer. This property is not magical.
+
+Transient
+Over the course of a long rest, the bearer may transfer the other magic properties of this object to another object of their choosing. This object then loses those properties. Roll at least one other property
+
+Projection
+The bearer can use an action to amplify their voice three times louder than normal.
+
+Warding
+Once per long rest the bearer may draw a 20 foot line in the ground with this object that lasts for 1 minute. The Undead must succeed on a DC 12 wisdom saving throw to move across this line. If they fail, they cannot move again until their next turn.
+
+Weave-touched
+Whenever the bearer casts a spell, this weapon gains charges equal to the spell's level. The bearer can use a bonus action to remove 13 charges and gain advantage on their next spell attack roll.
+
+Parrying
+Once per short rest, the bearer may use their reaction to gain a +1 AC bonus until the end of the round
+
+Patient
+Whenever the bearer readies an action, they have advantage on constitution saving throws to maintain concentration.
+
+Beckoner
+If the item is separated from the bearer, the bearer instinctively knows the item’s direction and rough distance. This knowledge lasts for 24 hours or until the item is attuned to someone else, whichever comes first.
+
+Brave
+When the bearer of this item contemplates or undertakes a cowardly act—or even a neutral act, when a more daring option is available—the item enhances feelings of shame and guilt.
+
+Bulwark
+If the item is in the bearer’s possession for the entirety of a long rest, the item grants the bearer 5 temporary hit points at the conclusion of that rest. If not used, these hit points fade in 24 hours.
+
+Cowardly
+When the bearer is presented with an opportunity to act in a cowardly or self-preserving manner, the item heightens the bearer’s urge to do so.
+
+Devoted
+The item fights to remain attuned to its current bearer. The item must be separated from the bearer for 48 hours, rather than the standard 24, to break the attunement. If a new individual attempts to attune the item when a prior attunement is still in effect, the individual must succeed on a DC 14 Charisma check at the end of that short rest. On a failure, the item fails to attune to the new owner, remaining attuned to the old.
+
+Enigmatic
+Neither examination over the course of a short rest, nor identify or similar magics, reveal this item’s properties. The bearer can learn those properties only through attunement or trial and error. Roll at least 1 more property
+
+Fastidious
+Once per day, as an action, the bearer can magically clean themselves, their outfit, and the item itself of dirt, grime, sweat, and so forth. This power resets at dawn.
+
+Focused
+The bearer of this item gains a +1 bonus to Constitution saving throws made to avoid losing concentration on an ongoing spell.
+
+Gloom-Sight
+If the bearer of this item possesses darkvision, the effective distance of that darkvision increases by 20 feet while the item is on the bearer’s person. It does not, however, grant darkvision to a bearer who does not already possess it.
+
+Hardy
+If the item is in the bearer’s possession for the entirety of a long rest, then at the conclusion of that rest, the item grants the bearer one extra hit die, which can be spent as normal to regain hit points during a short rest. If not used, this extra hit die disappears in 24 hours.
+
+Lodestar
+This item is linked to a specific location or object, determined by the GM. The bearer can use an action to determine the distance and direction to that place or object. The item does not grant the bearer any specific knowledge of what that item or place might be.
+
+Restful
+If the item is in the bearer’s possession since the beginning of a long rest, the bearer requires only six hours to gain the benefit of that rest, rather than the standard eight. The bearer can still gain the benefits of a long rest only once per day.
+
+Resuscitator
+If the item is in the bearer’s possession, the bearer gains a +2 bonus to the first death save made that day. This power resets at dawn.
+
+Schemer
+As an action while the item is on the bearer’s person, the bearer may choose one individual within both sight and earshot. Until the bearer ends the effect (no action required) or a full minute passes, anything the bearer says is heard only by that individual, not by anyone else. (This is a one-way effect only.) This power can be used once a day and resets at dawn.
+
+Skillful
+The bearer gains a +1 bonus to ability checks using one specific skill, of the GM’s choice, while the item is on the bearer’s person.
+
+Speedy
+As an action while the item is on the bearer’s person, the bearer may gain a +5 to walking speed. This bonus lasts until the bearer deactivates it (no action required). The item grants this bonus up to a maximum total duration of one minute per day, resetting at dawn.
+
+Suppressible
+As an action, the bearer may suppress the item’s magic, in its entirety, for a preset amount of time (up to 24 hours). During that time, the item behaves as a non-magical item, cannot be attuned by anyone (though existing attunement does not end), and does not register as magical to detect magic, identify, or any other spells or abilities that detect magic. The effect cannot be ended prematurely; it lasts for the duration specified when activated.
+
+Unwavering
+The item grants the bearer an extra sliver of luck to slightly mitigate unfavorable conditions. When the item is created, the GM chooses one of the following: attack rolls, saving throws, or ability checks. When the bearer makes a roll of the chosen type with disadvantage, the item grants a +1 bonus on that roll.
+
+Beacon
+The bearer can use a bonus action to cause the item to shed bright light in a 10-foot radius and dim light for an additional10 feet, or to extinguish the light.
+
+Compass
+The wielder can use an action to learn which way is north.
+
+Conscientious
+When the bearer of this item contemplates or undertakes a malevolent act, the item enhances pangs of conscience.
+
+Delver
+While underground , the bearer of this item always knows the item's depth below the surface and the direction to the nearest staircase, ramp, or other path leading upward.
+
+Gleaming
+This item never gets dirty.
+
+Guardian
+The item whispers warnings to its bearer, granting a +2 bonus to initiative if the bearer isn't incapacitated.
+
+Harmonious
+Attuning to this item takes only 1 minute. Roll at least 1 more property
+
+Hidden Message
+A message is hidden somewhere on the item. It might be visible only at a certain time of the year, under the light of one phase of the moon, or in a specific location.
+
+Key
+The item is used to unlock a container, chamber, vault, or other entryway.
+
+Language
+The bearer can speak and understand a language of the OM's choice while the item is on the bearer's person.
+
+Sentinel
+Choose a kind of creature that is an enemy of the item's creator. This item glows faintly when such creatures are within 120 feet of it.
+
+Song Craft
+Whenever this item is struck or is used to strike a foe , its bearer hears a fragment of an ancient song.
+
+Strange Material
+The item was created from a material that is bizarre given its purpose. Its durability is unaffected.
+
+Temperate
+The bearer suffers no harm in temperatures as cold as -20 degrees Fahrenheit or as warm as 120 degrees Fahrenheit.
+
+Unbreakable
+The item can't be broken. Special means must be used to destroy it. Roll a 1d4. On a 1, roll at least one more property.
+
+War Leader
+The bearer can use an action to cause his or her voice to carry clearly for up to 300 feet until the end of the bearer's next turn.
+
+Waterborne
+This item floats on water and other liquids. Its bearer has advantage on Strength (Athletics) checks to swim.
+
+Wicked
+When the bearer is presented with an opportunity to act in a selfish or malevolent way, the item heightens the bearer's urge to do so.
+
+Illusion
+The item is imbued with illusion magic, allowing its bearer to alter the item 's appearance in minor ways. Such alterations don't change how the item is worn , carried, or wielded, and they have no effect on its other magical properties. For example, the wearer could make a red robe appear blue, or make a gold ring look like it 's made of ivory. The item reverts to its true appearance when no one is carrying or wearing it.
+
+Eavesdropper
+As long as it is within one mile, an attuned bearer can hear through this item as though they were present in its location
+
+Cantrip-casting
+This item lets the bearer use a cantrip 1d4 times per day, with the count resetting at each dawn
+
+Vital
+This item increases the bearer's maximum hit points by their constitution modifier (minimum 1) while wearing it
+
+Favored
+Once per day the bearer can roll one saving throw with advantage
+
+Minor Wizardry
+This item can store one 1st level spell slot. When storing a spell, the user may use this spell level as though it were one of their spells per day. The spell can be recharged once spent by expending a spell slot and making a DC 10 Intelligence (Arcana) check.
+
+Vigilance
+The bearer gains +2 to passive perception while this object is borne
+
+Spell-bearing, cantrip
+This item contains 1d6+1 unreplenishable charges of a cantrip
+
+Spell-bearing 1st level
+This item contains 1d4 unreplenishable charges of a 1st level spell
+
+Heroic
+The bearer has advantage on saving throws versus fear
+
+Drunkard's
+The bearer always knows the direction to the closest alcoholic beverage
+
+Victorious
+Whenever the bearer kills a creature they gain temporary hit points equal to the creature's CR
+
+Channeling
+Once per day, the bearer of this item may cast a spell without using its verbal or somatic components
+
+Locating
+Once attuned, the bearer always knows the location of this item. Roll at least 1 other property.
+
+Cartographic
+On its own volition, the item records a map of the environments that the bearer is exploring, and can magically project it for the bearer to see.
+
+Revealing
+Once per day, the bearer can gain the benefits of the spells Detect Good and Evil, Detect Poison and Disease, and See Invisibility for 1 round
+
+Blessed
+Whenever bearer of this item receives divine healing, they gain an additional 1d4 hit points
+
+Nimble
+The bearer gains a +1 bonus to Dexterity checks and Saving Throws
+
+Enduring
+The bearer gains a +1 bonus to Constitution checks and Saving Throws
+
+Powerful
+The bearer gains a +1 bonus to Strength checks and Saving Throws
+
+Clever
+The bearer gains a +1 bonus to Intelligence checks and Saving Throws
+
+Charming
+The bearer gains a +1 bonus to Charisma checks and Saving Throws
+
+Enlightened
+The bearer gains a +1 bonus to Wisdom checks and Saving Throws
+
+Nourishing
+The bearer rarely feels hungry, and only needs to consume one-fifth the usual amount of food
+
+Refreshing
+The bearer rarely feels thirsty, and only needs to consume one-fifth the usual amount of drink
+
+Stimulating
+The bearer rarely feels tired, and only needs to sleep 1/2 the usual amount of time (must still rest the full length of time to receive the benefits of a long rest)
+
+Healing
+This item can hold 4 charges. As an action, a character can use one charge to heal 1d4 hit points at touch range. The item regains 1d4 charges at sunrise.
+
+Etherbound
+The bearer can see creatures in the Border Ethereal that overlap with their plane as clearly as if they were fully in the bearer's plane. Such creatures appear as apparitions or ghosts
+
+Tenacious
+When the bearer takes a long rest, they gain back one additional hit die
+
+Solemn
+The bearer may spend an action removing all the failed death saving throws from a target within 5 feet of them. The target is still not stabilized
+
+Shifting
+The bearer may change minor aspects of the physical appearance of this item
+
+Renaissance
+Once per day, the bearer may gain +1 to any skill check
+
+Ritual
+Whenever the bearer casts a spell as a ritual, they have advantage to maintain concentration during the ritual
+
+Reaper
+The bearer has advantage on death saving throws
+
+Resistant Gem
+This object has a high quality semi-precious gemstone embedded on it which reduces the damage dealt to the bearer by 1, Psychic for amethyst, Lightning for cerulean, Fire for garnet, Poison for Malachite, Acid for obsidian, Cold for opal, Thunder for turquoise, or Force for zircon.
+
+Defensive
+Whenever the wearer takes a dodge action, they gain +1 AC until the end of the turn.
+
+Granite
+Any effect that would move the bearer against their will is reduced in distance by 5 feet.
+
+Liar
+The bearer cannot be magically compelled to speak the truth.
+
+Projecting
+The bearer can send messages mentally to willing characters within 30 feet. This communication is one-way only.
+
+Feline
+The bearer has advantage on all Dexterity (Acrobatics) checks
+
+Vulpine
+Characters trying to track the bearer or detect them when hidden have disadvantage on their skill checks
+
+Eagle-eye
+The bearer can clearly see twice as far and gains advantage on Wisdom (perception) checks that use sight.
+
+Lupine
+The bearer can detect and distinguish scents like a wolf and gains advantage on Wisdom (Perception) checks that use smell.
+
+Chiropteran
+The bearer can hear a pin drop in a crowded room and gains advantage on Wisdom (Perception) checks that use hearing.
+
+Sober
+The bearer cannot become intoxicated.
+
+Dual-Featured
+Roll twice, rerolling any additional repeats
+
+Triple-Featured
+Roll three times, rerolling any additional repeats

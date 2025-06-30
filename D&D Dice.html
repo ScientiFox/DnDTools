@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/*Main columns, 1080 looks nice with the elements as-is*/
+.columns {
+	max-width:1080px;
+	width: 100%;
+	padding: 20px 0 0 10px;
+}
+
+/*Columns both aligned to top, padding to separate them a little*/
+.columnLeft {
+	width: 50%;
+	vertical-align: top;
+}
+.columnRight {
+	width: 50%;
+	vertical-align: top;
+	padding: 0 0 0 20px;
+}
+/*One for active combatants, and one for incapacitated ones*/
+.combatant{
+	border:4px solid gold;
+	width: 250px;
+	margin-bottom: 5px;
+}
+.combatantout{
+	border:4px solid red;
+	width: 250px;
+	margin-bottom: 5px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!--All the things are in columns for layout, two at top for info and image-->
+<table class="columns" id='topContent'>
+<tr>
+	<td class="columnLeft">
+		<!--For the header text-->
+		<div style="width:100%" id="topBlock">
+
+		<h2 style="margin-bottom:0px">D&D Tools</h2>
+
+		<span id="clock"></span><br/><!--Check crashes--><br/>
+
+		A collection of useful tools for doing D&D things! <br/> 
+		<ul>
+		<li>A die-roll parser with an additional test function for checking the results of roll results, especially those including empowerment or re-roll options.</li>
+
+		<li>Includes a minor magic item creation tool and a character background creator, with properties derived from several sources, as well a quirks.</li>
+
+		<li>A character background creator derived from the 5e tables!</li>
+
+		<li>A combat manager that tracks HP, AC, turn-based conditions, and lets you roll dies easily. Each combatant has an amount box that sets healing, damage, or condition duration with the buttons. Clicking the blue atk rolls rolls those dice, and whenever there's a roll, it loads the result into the combatants' amount box for easy updates. Click a condition timer to remove it</li>
+
+		</ul>
+		</div>
+	</td>
+
+	<td class="columnRight"> <!--A nice image on the right-->
+		<img src="" id="posterImage" style="padding-top:40px;width:512px;">
+	</td>
+</tr>
+</table>
+
+<hr width=1080 align="left"> <!--I like these bars-->
+
+<!--Second table- tools on the left, results on the right-->
+<table class="columns" id='mainContent'>
+<tr>
+	<td class="columnLeft">
+		<b><u>Tools:</u></b>
+		<hr>
+		<button onclick="makeChar();">Generate Background!</button> <br/>
+		<hr>
+		<button onclick="rollDies();">Roll Dice!</button> <br/>
+			Die string: <input type="text" id="dieInput" value="1d6+4" onkeydown="if (event.keyCode==13){rollDies();}">
+		<hr>
+		<button onclick="makeMagic();" style="margin-bottom:5px;">Magic Items</button> <br/>
+			Number: <input type="number" id="magicItemsNumber" min='1' max='30' value='3' onkeydown="if (event.keyCode==13){makeMagic();}">
+			Quirk Probability: <input type="number" id="quirkProbability" min='0' max='100' value='10' onkeydown="if (event.keyCode==13){makeMagic();}"><br/>
+			Exotic Material Chance: <input type="number" id="materialChance" min='0' max='100' value='10' onkeydown="if (event.keyCode==13){makeMagic();}">
+		<hr>
+		<b>Combat Manager<b> <button onclick="advanceTurn();" style="margin-bottom:5px;">Advance Turn</button><br/>
+		<button onclick="clearCbt();" style="margin-bottom:5px;">Clear Combat</button>
+		<button onclick="saveCbt();" style="margin-bottom:5px;">Save Combat</button>
+		<button onclick="loadCbt();" style="margin-bottom:5px;">Load Combat</button>
+		<br/>
+		<button onclick="addCombatant();" style="margin-bottom:5px;">Add Combatant</button> Number: <input type="number" id="nComb" min='1' style="width:3em;" value='1'>
+		<br/>
+		<input type="text" id="nameInp" style="width:10em;margin-bottom:5px;" value='Angry Dog'><br/>
+		HP: <input type="number" id="hpInp" min='1' style="width:3em;" value='7'>
+		AC: <input type="number" id="acInp" min='0' style="width:3em;" value='13'>
+		Init: <input type="text" id="initInp" style="width:3em;" value='+3'>
+		<br/>
+		Attacks: <input type="text" id="atksInp" value="1d6+4;2d4+1" style="margin-top:5px;" onkeydown="if (event.keyCode==13){addCombatant();}">
+
+		<hr width=50% align="left">
+
+		<div id="cbtMgr">
+		</div>
+
+	</td>
+	<td class="columnRight">
+		<div id="outputText"></div>
+		<center><img src="" id="splashImage"></center> <!--A splash image to fill space until there's some results-->
+		<br/>
+	</td>
+</tr>
+</table>
+
+<script src="DnDTools.js"></script>
+
+</body>
+</html>
