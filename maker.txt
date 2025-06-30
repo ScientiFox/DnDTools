@@ -14,7 +14,7 @@ Drow 1
 The item is half the normal weight. It is black and inscribed with spiders and we bs in honor of Lolth. It might function poorly, or disintegrate, if exposed to sunlight for 1 minute or more.
 
 Dwarf 25
-The item is durable and has Dwarven runes worked into its design. It might be associated with a clan that wo uld like to see it returned to their ancestral halls.
+The item is durable and has Dwarven runes worked into its design. It might be associated with a clan that would like to see it returned to their ancestral halls.
 
 Elemental_Air 1
 The item is half the normal weight and feels hollow. If it is made offabric, it is diaphanous.
