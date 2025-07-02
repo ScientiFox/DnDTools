@@ -1561,6 +1561,41 @@ async def handle_client(websocket):
 
             resp = '' #Start off with nothing to respond, it will be the HTML to display
 
+            #if the client is asking for an empowered roll trial
+            if message[0]=="trial":
+
+                #Process dies from message string
+                dies = message[1].split(";") #Separate into individual trial types
+                dies = dies[:-1] #Remove trailing ''
+                dies = [s.split(',') for s in dies] #split dies by comma
+                dies = [[int(a) for a in s] for s in dies] #Turn n, d, and mod to integers
+                dies = [a[:-1]+[1]+[a[-1]] for a in dies] #Add in the E parameter, since we always use it
+
+                #Run a 10000 trial test to get the average result
+                res = run_trial(dies,10000)
+
+                #Build the string for the kind of roll checked
+                interpStr = ''
+                for d in dies: #Format: ndK(mod)
+                    interpStr = interpStr + str(d[0])+"d"+str(d[1]) + "("+str(d[3])+") + "
+                interpStr = interpStr[:-3]
+
+                #Start building html results
+                resp = "Empower Trial: <span style='color:green;'>" + interpStr + "</span><hr>"
+                resp = resp + "&nbsp;&nbsp;<u>Result:</u> <span style='color:blue'>" + str(res) + "</span>" + "<br/>"
+
+                #Display results, along with dies by type and highlighting numbers that might be replaced
+                resp = resp + "<div style='padding-left:30px;padding-top:5px;max-width:512;'>"
+                for i in range(len(dies)): #for each die
+                    resp = resp + "<b>d"+str(dies[i][1])+":</b> " #list what type
+                    for j in range(dies[i][1]):
+                        if (j<dies[i][3]):
+                            resp = resp + "<span style='color:green;'>"+str(j+1)+"</span> "
+                        else:
+                            resp = resp + "<span style='color:purple;'>"+str(j+1)+"</span> "
+                    resp = resp + "<br/>"
+                resp = resp + "</div>" #close the indented div
+
             #If the client is asking us to save results
             if message[0] == "save":
                 txt = message[1] #the message is the html to save

@@ -49,6 +49,10 @@ didRoll = false; //Flag for if a roll was called (to update amount boxes)
 currentTurn = 0; //Index of turn to cycle combatant cards
 turnAdvanced = false; //Flag for if the turn was cycled
 
+//For empower dies input
+let empDiesNumbers;
+empDiesNumbers = [];
+
 //Prototype for a combatant card, using Æ as the placeholder for the index number
 // We address card properties with segment keys like 'camt_Æ': (c)ard (am)oun(t) _ Æ(index)
 cProto = '<b id="cname_Æ" style="margin-left:5px;">Combatant Name</b> <span style="margin-right:5px;float:right">Init <span id="cinit_Æ">2</span></span><br>\n\
@@ -142,6 +146,82 @@ function tickTock(){
 		}
 		toInitCombs = []; //Clear the updates for later
 	}
+}
+
+//Function to run an empower dies trial with the current list of trial dies
+function trial(){
+
+	if (empDiesNumbers.length > 0){
+		msg = ''
+		for (let i=0;i<empDiesNumbers.length;i++){
+			msg = msg + empDiesNumbers[i][0] + "," + empDiesNumbers[i][1] + "," + empDiesNumbers[i][2] + ";";
+		}	
+		sendString("trial§"+msg);
+	}
+	else{
+		alert("No dies entered!");
+	}
+
+
+}
+
+//Remove an empowerment trial die by clicking on it
+function remEmpDie(){
+	let cid_N = event.target.id; //Grab the caller's target id
+	N = parseInt(getCIndex(cid_N)); //Get the card index from that id
+
+	//New die list after removal and remade div string
+	let n_empDiesNumbers = [];
+	let empDies = '';
+
+	let j=0; //j will be the index in the new list
+	for (let i=0;i<empDiesNumbers.length;i++){//looping over current entried
+		if (i!=N){ //If it's not the one to remove
+			n_empDiesNumbers.push(empDiesNumbers[i]) //Push the entry onto the new list
+			n = empDiesNumbers[i][0]; //grab the n, d, and mod for the entry
+			d = empDiesNumbers[i][1];
+			mod = empDiesNumbers[i][2];
+			
+			//Update the display innerHTML string- using j for index in the new 
+			if (empDies == ''){empDies = empDies + "<span id='eD_"+j+"' onclick='remEmpDie();' style='color:blue;'>" + n + 'd' + d + '  +' + mod + "</span>";}
+			else{empDies = empDies + "<br/> <span id='eD_"+j+"' onclick='remEmpDie();' style='color:blue;'>" + n + 'd' + d + '  +' + mod + "</span>";}
+			j = j + 1; //increment the new index counter to set the ID
+		}
+	}
+	empDiesNumbers = n_empDiesNumbers; //Replace the old list with the new one
+	document.getElementById('empDiesList').innerHTML = empDies; //Update the innerHTML
+}
+
+//Function to add a die for the empowerment trials
+function addDies(){
+	//Grab n, d, and mods from inputs
+	let n = parseInt(document.getElementById('empNInp').value);
+	let d = parseInt(document.getElementById('empDInp').value);
+	let mod = parseInt(document.getElementById('empModInp').value);
+
+	//Make a dies list for each die set and push onto the list
+	let dies = [n,d,mod];
+	empDiesNumbers.push(dies);
+
+	//Build the new div strong
+	let empDies = '';
+	for (let i=0;i<empDiesNumbers.length;i++){//looping over all entries
+		n = empDiesNumbers[i][0]; //Grab each entry's n, d, and mod
+		d = empDiesNumbers[i][1];
+		mod = empDiesNumbers[i][2];
+		
+		//Build the inner div string
+		if (empDies == ''){empDies = empDies + "<span id='eD_"+i+"' onclick='remEmpDie();' style='color:blue;'>" + n + 'd' + d + '  +' + mod + "</span>";}
+		else{empDies = empDies + "<br/> <span id='eD_"+i+"' onclick='remEmpDie();' style='color:blue;'>" + n + 'd' + d + '  +' + mod + "</span>";}
+	}
+
+	document.getElementById('empDiesList').innerHTML = empDies;
+}
+
+//FUnction to clear all empower trial dies
+function clearDies(){
+	document.getElementById('empDiesList').innerHTML = ''; //wipe the inner div html
+	empDiesNumbers = []; //clear the list of dies
 }
 
 function remCond(event){
