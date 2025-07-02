@@ -16,9 +16,10 @@ As of now, it includes the following tools:
 - A history save feature which writes all the currently run generator and roll outputs to the local disk, so that roll sequences, made items, or backgrounds can be reviewed later, as well as a history clear function to remove clutter there
 - A combat manager save and load function which saves the current combatant cards, turn order, and conditons to localStorage, so that an encounter can be paused and then re-loaded in-browser later, as well as a combat manager clear function
 - Pleasant and fun header poster images and splash placeholders for before results are generated.
+- An empowered die rolling experiment, where you create a list of dies that can be rolled, set a modifier representing the number that can be re-rolled, and the system does 10k experiments to find the average result. Useful for empowering spellcasters, superiority die, and other re-roll features.
+
 
 Features in progress include:
-- A utility to run die roll experiments when including empowering, where a number of low rolls can be re-rolled and the new total used (examining the effects over a large number of trials)
 - Setting the name of a generated character backstory to keep named NPCs around
 
 
